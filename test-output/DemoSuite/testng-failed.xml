@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="" value=""/>
+  <test thread-count="5" name="OrangeHrmLogin(failed)">
+    <classes>
+      <class name="com.hyr.Tests.OrangeHrm">
+        <methods>
+          <include name="EnterLoginDetails"/>
+          <include name="Teardown"/>
+          <include name="VerifyLogin"/>
+          <include name="initialiseBrowser"/>
+        </methods>
+      </class> <!-- com.hyr.Tests.OrangeHrm -->
+    </classes>
+  </test> <!-- OrangeHrmLogin(failed) -->
+  <test thread-count="5" name="OrangeHrmMyinfo(failed)">
+    <classes>
+      <class name="com.hyr.Tests.OrangeHrm">
+        <methods>
+          <include name="NavigateToMyinfo"/>
+          <include name="EnterLoginDetails"/>
+          <include name="Teardown"/>
+          <include name="VerifyMyinfo"/>
+          <include name="initialiseBrowser"/>
+        </methods>
+      </class> <!-- com.hyr.Tests.OrangeHrm -->
+    </classes>
+  </test> <!-- OrangeHrmMyinfo(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->
